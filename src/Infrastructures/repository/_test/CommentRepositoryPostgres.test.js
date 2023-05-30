@@ -263,7 +263,7 @@ describe('CommentRepositoryPostgres', () => {
 
       const secondComment = {
         id: 'comment-456',
-        date: new Date('2023-01-01T00:00:00.000Z'),
+        date: new Date('2023-01-02T00:00:00.000Z'),
         content: 'a comment content',
         owner: 'user-123',
         isDeleted: false,
